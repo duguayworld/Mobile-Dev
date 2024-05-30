@@ -4,7 +4,7 @@ Some mobile development with different libraries.
 |             |             |            |
 | :---:       |       :---: |   :---:    |
 |  **SOCKET** | **PASSWORD**| **SHARING**|
-|![Screenshot_2024-05-29_22-43-47](https://github.com/duguayworld/Mobile-Dev/assets/153779837/5576f6ec-7ccf-4833-9108-687af3277fb2)|![Screenshot_2024-05-29_22-43-48](https://github.com/duguayworld/Mobile-Dev/assets/153779837/8aa186cf-7c15-4411-abc5-761d6882a8ef)|![Screenshot_2024-05-29_22-43-49](https://github.com/duguayworld/Mobile-Dev/assets/153779837/7f8b62e4-99c1-4e8b-9416-364ee4760026)|
+|![screenshot1](https://github.com/duguayworld/Mobile-Dev/assets/153779837/ad91e5e3-6fb1-43e4-9474-9d745a76bd7b)|![screenshot2](https://github.com/duguayworld/Mobile-Dev/assets/153779837/0fab8871-d356-4c79-bb28-1ee30fbf834b)|![screenshot3](https://github.com/duguayworld/Mobile-Dev/assets/153779837/2f85f57b-f33f-43eb-9210-1ab99077b105)|
 |Main App Screen|QR Code Uploaded|Store your passwords|
 
 
