@@ -185,7 +185,7 @@ class ScanPage(tk.Frame):
                     # Connect to desktop application
                     try:
                         socket.socket(socket.AF_INET, socket.SOCK_STREAM).connect((ip_address, port))
-                        CustomMessageBox.showinfo("Success", "Connected to hotel.tv", label_padx=35, label_pady=20)
+                        CustomMessageBox.showinfo("Success", "Connected to YOURAPP", label_padx=35, label_pady=20)
                         self.master.show_page("input")
                         cap.release()
                         return
@@ -246,11 +246,11 @@ class ScanPage(tk.Frame):
             # Connect to desktop application
             try:
                 socket.socket(socket.AF_INET, socket.SOCK_STREAM).connect((ip_address, port))
-                CustomMessageBox.showinfo("Success", "Connected to hotel.tv", label_padx=35, label_pady=20)
+                CustomMessageBox.showinfo("Success", "Connected to YOURAPP", label_padx=35, label_pady=20)
                 self.master.show_page("input")
                 return
             except Exception as e:
-                CustomMessageBox.showerror("Error", "Can't connect to hotel.tv\nTake a picture\nof the QR Code\nand upload it to the\nTV application",
+                CustomMessageBox.showerror("Error", "Can't connect to YOURAPP\nTake a picture\nof the QR Code\nand upload it to the\n** application",
                                            label_padx=30, label_pady=20)
                 return
 
@@ -456,7 +456,7 @@ class ConnectionPage(tk.Frame):
             # Establish connection
             self.connection = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             self.connection.connect((ip_address, port))
-            CustomMessageBox.showinfo("Success", "Connected to hotel.tv", label_padx=35, label_pady=20)
+            CustomMessageBox.showinfo("Success", "Connected to YOURAPP", label_padx=35, label_pady=20)
         except Exception as e:
             CustomMessageBox.showerror("Error", "Failed to connect\nCheck you device permissions\nMake sure your wifi is open.", label_padx=35, label_pady=20)
 
